@@ -1,4 +1,4 @@
-package StaticImport;
+package ElementosBasicos.StaticImport;
 
 public class StaticImport {
     public static void main(String[] args) {

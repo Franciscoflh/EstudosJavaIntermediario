@@ -1,4 +1,4 @@
-package EscopoDeVariaveis;
+package ElementosBasicos.EscopoDeVariaveis;
 
 public class Teste {
     public static void main(String[] args) {

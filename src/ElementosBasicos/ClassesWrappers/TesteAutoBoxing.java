@@ -1,4 +1,4 @@
-package ClassesWrappers;
+package ElementosBasicos.ClassesWrappers;
 
 public class TesteAutoBoxing {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package EscopoDeVariaveis;
+package ElementosBasicos.EscopoDeVariaveis;
 
 public class EscopoVariaveis {
     private int valor;

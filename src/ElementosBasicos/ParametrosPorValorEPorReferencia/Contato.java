@@ -1,4 +1,4 @@
-package ParametrosPorValorEPorReferencia;
+package ElementosBasicos.ParametrosPorValorEPorReferencia;
 
 public class Contato {
     private String nome;

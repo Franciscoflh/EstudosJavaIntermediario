@@ -1,6 +1,4 @@
-package ParametrosPorValorEPorReferencia;
-
-import org.w3c.dom.ls.LSOutput;
+package ElementosBasicos.ParametrosPorValorEPorReferencia;
 
 public class PassagemValorParametro {
     public static void main(String[] args) {
