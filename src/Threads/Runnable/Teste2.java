@@ -1,9 +1,6 @@
 package Threads.Runnable;
 
-import Threads.MinhaThread;
-
-public class Teste {
-
+public class Teste2 {
     public static void main(String[] args) {
         MinhaThreadRunnable thread1 = new MinhaThreadRunnable("#1", 500);
         MinhaThreadRunnable thread2 = new MinhaThreadRunnable("#2", 600);
@@ -17,15 +14,15 @@ public class Teste {
         t2.start();
         t3.start();
 
-        for (int i = 0; i < 15; i++) {
+        while(t1.isAlive() || t2.isAlive() || t3.isAlive()) {
             try{
                 Thread.sleep(200);
             }catch (InterruptedException e){
                 e.printStackTrace();
             }
-            
+
         }
-        
+
         System.out.println("programa finalizado");
     }
 }
